@@ -1,0 +1,17 @@
+.title {
+  margin: 5px 0;
+  color: #333;
+  font-size: 24px;
+  font-weight: 500;
+  word-break: break-word;
+}
+.link {
+  display: block;
+  margin-bottom: 14px;
+  color: #548eaa;
+  word-break: break-all;
+}
+
+.buttonBack {
+  margin-bottom: 25px;
+}

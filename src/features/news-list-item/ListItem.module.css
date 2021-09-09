@@ -1,0 +1,51 @@
+.wrapper {
+  display: block;
+  margin-bottom: 21px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0px #bbcdd6;
+  min-height: 81px;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  color: #333;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+  word-break: break-word;
+}
+.title:hover {
+  color: #4c8eab;
+}
+
+.loadingLine {
+  height: 10px;
+  margin: 16px 0;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+  50% {
+    background-color: rgba(165, 165, 165, 0.3);
+  }
+  100% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    min-height: 105px;
+  }
+  .title {
+    font-size: 14px;
+  }
+}

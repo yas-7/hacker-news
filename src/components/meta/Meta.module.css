@@ -1,0 +1,34 @@
+.info {
+  display: flex;
+}
+
+.author {
+  margin-right: 20px;
+  color: #414b50;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.date {
+  margin-right: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #798e98;
+}
+
+.score {
+  display: flex;
+  color: #798e98;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.score::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  margin-right: 2px;
+  align-items: center;
+  display: inline-block;
+  background-image: url("../../assets/starred-badge.svg");
+}

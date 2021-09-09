@@ -1,0 +1,22 @@
+.comment {
+  margin-bottom: 25px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 22px;
+  word-break: break-word;
+}
+
+.more {
+  display: block;
+  padding: 0;
+  margin-bottom: 10px;
+  border: 0;
+  background: none;
+  color: #548eaa;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+}

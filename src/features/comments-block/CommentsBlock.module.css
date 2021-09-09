@@ -1,0 +1,17 @@
+.wrapper {
+  margin-top: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #798e98;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
